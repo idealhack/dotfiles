@@ -13,6 +13,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'airblade/vim-gitgutter'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'altercation/vim-colors-solarized'
 
