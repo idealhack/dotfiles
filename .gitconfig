@@ -1,0 +1,16 @@
+[user]
+  name = Yang Li
+  email = idealhack@gmail.com
+[color]
+  ui = auto
+[alias]
+  st = status
+  df = diff
+  ci = commit
+  co = checkout
+  br = branch
+  pl = log -p
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  who = shortlog -s
+[push]
+  default = current
