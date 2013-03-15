@@ -5,5 +5,12 @@ plugins=(brew git git-extras git-flow github heroku node npm osx pip python rsyn
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
-# varables
+# homebrew
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+# gem
+export PATH=/usr/local/opt/ruby/bin:$PATH
+# npm
+export PATH=/usr/local/share/npm/bin:$PATH
+# android
+export PATH=$HOME/Work/adt/sdk/tools:$PATH
+export PATH=$HOME/Work/adt/sdk/platform-tools:$PATH
