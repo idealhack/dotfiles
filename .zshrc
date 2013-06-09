@@ -18,3 +18,7 @@ export PATH=/usr/local/share/npm/bin:$PATH
 # android
 export PATH=$HOME/Work/android/sdk/tools:$PATH
 export PATH=$HOME/Work/android/sdk/platform-tools:$PATH
+
+# alias
+alias diff=colordiff
+alias svn=colorsvn
