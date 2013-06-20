@@ -11,8 +11,6 @@ export EDITOR=vim
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 # gem
 export PATH=/usr/local/opt/ruby/bin:$PATH
-# pip
-export PATH=/usr/local/share/python:$PATH
 # npm
 export PATH=/usr/local/share/npm/bin:$PATH
 # android
