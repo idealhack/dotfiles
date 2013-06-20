@@ -13,5 +13,5 @@ $ ./init.sh
 Sync:
 
 ```bash
-$ ./bootstrap.sh
+$ ./sync.sh
 ```
