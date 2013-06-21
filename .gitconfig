@@ -1,6 +1,8 @@
 [user]
   name = Yang Li
   email = idealhack@gmail.com
+[core]
+  excludesfile = ~/.gitignore
 [color]
   ui = auto
 [alias]
