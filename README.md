@@ -4,13 +4,13 @@ configurations for git, svn, tmux, vim, zsh, etc. in os x
 
 ## Usage
 
-Init:
+To initial a complete new environment:
 
 ```bash
 $ ./init.sh
 ```
 
-Sync:
+To sync latest dotfiles and deploy them:
 
 ```bash
 $ ./sync.sh
