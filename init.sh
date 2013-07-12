@@ -20,4 +20,4 @@ mkdir -p ~/.vim/{backup,swap}
 
 # bootstraping
 echo -e "\033[0;33mConfiguring all these stuff...\033[0m"
-./bootstrap.sh
+./sync.sh
