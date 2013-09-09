@@ -19,4 +19,3 @@ export PATH=$HOME/Work/android/sdk/platform-tools:$PATH
 
 # alias
 alias diff=colordiff
-alias svn=colorsvn
