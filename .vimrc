@@ -53,13 +53,13 @@ colorscheme solarized
 let g:solarized_termcolors=256
 set background=dark
 
-" gvim
+" macvim
 if has("gui_running")
   set mouse=a
-  set lines=26
-  set columns=100
+  set lines=30
+  set columns=120
   set numberwidth=3
-  set guifont=Monaco\ 12
+  set guifont=Monaco:h16
 endif
 
 filetype plugin indent on
