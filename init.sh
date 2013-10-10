@@ -4,10 +4,13 @@
 echo -e "\033[0;33mInstalling Homebrew...\033[0m"
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
-# basic tools
-echo -e "\033[0;33mInstalling basic tools...\033[0m"
-brew install git tmux vim zsh \
-             curl colordiff
+# development tools
+echo -e "\033[0;33mInstalling development tools...\033[0m"
+brew install git tmux vim macvim zsh \
+             curl colordiff tree \
+             python ruby node \
+             mongodb redis \
+             nginx
 
 # oh-my-zsh
 echo -e "\033[0;33mInstalling Oh My Zsh...\033[0m"
