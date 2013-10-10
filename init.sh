@@ -6,8 +6,8 @@ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
 # basic tools
 echo -e "\033[0;33mInstalling basic tools...\033[0m"
-brew install git svn tmux vim zsh \
-             curl colordiff colorsvn
+brew install git tmux vim zsh \
+             curl colordiff
 
 # oh-my-zsh
 echo -e "\033[0;33mInstalling Oh My Zsh...\033[0m"
