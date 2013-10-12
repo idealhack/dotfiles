@@ -7,7 +7,7 @@ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 # development tools
 echo -e "\033[0;33mInstalling development tools...\033[0m"
 brew install git tmux vim macvim zsh \
-             curl colordiff tree \
+             curl colordiff mtr tree \
              python ruby node \
              mongodb redis \
              nginx
