@@ -2,7 +2,7 @@
 
 # homebrew
 echo -e "\033[0;33mInstalling Homebrew...\033[0m"
-ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 # development tools
 echo -e "\033[0;33mInstalling development tools...\033[0m"
