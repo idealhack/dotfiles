@@ -10,9 +10,10 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'rstacruz/sparkup'
 Bundle 'ervandew/supertab'
 Bundle 'tpope/vim-fugitive'
+Bundle 'TimothyYe/vim-tips'
+Bundle 'Lokaltog/powerline'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
-Bundle 'Lokaltog/vim-powerline'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'altercation/vim-colors-solarized'
@@ -43,6 +44,7 @@ set matchpairs=(:),{:},[:],<:>
 set whichwrap=b,s,<,>,[,]
 set list!
 set listchars=tab:->,trail:·
+set shell=/bin/bash
 let mapleader=","
 let g:mapleader=","
 let g:javascript_enable_domhtmlcss=1
