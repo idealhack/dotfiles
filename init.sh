@@ -12,6 +12,9 @@ brew install git tmux vim macvim zsh \
              mongodb redis \
              nginx
 
+brew install caskroom/cask/brew-cask
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
+
 # oh-my-zsh
 echo -e "\033[0;33mInstalling Oh My Zsh...\033[0m"
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
