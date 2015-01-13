@@ -7,10 +7,14 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 # development tools
 echo -e "\033[0;33mInstalling development tools...\033[0m"
 brew install git tmux vim macvim zsh \
-             curl colordiff mtr tree \
+             wget curl colordiff mtr tree \
              python ruby node \
-             mongodb redis \
-             nginx
+             mysql mongodb redis \
+             nginx \
+             appledoc
+
+brew tap homebrew/dupes homebrew/versions homebrew/homebrew-php
+brew install --with-fpm --without-apache php54
 
 brew install caskroom/cask/brew-cask
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
