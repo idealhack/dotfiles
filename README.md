@@ -1,6 +1,6 @@
 # dotfiles
 
-configurations for git, tmux, vim, zsh, etc. in os x
+tools and configurations on os x
 
 ## Usage
 
