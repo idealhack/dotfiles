@@ -5,6 +5,10 @@ plugins=(brew git git-extras git-flow github heroku node npm osx pip python rsyn
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
+# locale
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 # env
 export EDITOR=vim
 # homebrew
