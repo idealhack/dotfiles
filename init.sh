@@ -6,14 +6,15 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 # development tools
 echo -e "\033[0;33mInstalling development tools...\033[0m"
+brew tap homebrew/homebrew-dupes homebrew/homebrew-versions homebrew/homebrew-php
+
 brew install git tmux vim macvim zsh \
              wget curl colordiff mtr tree stormssh \
              python ruby node \
              mysql mongodb redis \
              nginx \
-             appledoc
+             appledoc22
 
-brew tap homebrew/dupes homebrew/versions homebrew/homebrew-php
 brew install --with-fpm --without-apache php54
 
 brew install caskroom/cask/brew-cask
