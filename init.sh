@@ -7,7 +7,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 # development tools
 echo -e "\033[0;33mInstalling development tools...\033[0m"
 brew install git tmux vim macvim zsh \
-             wget curl colordiff mtr tree \
+             wget curl colordiff mtr tree stormssh \
              python ruby node \
              mysql mongodb redis \
              nginx \
