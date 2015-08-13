@@ -17,6 +17,9 @@ brew install git tmux vim macvim zsh \
 brew install --with-fpm --without-apache php54
 brew install memcached php54-memcache php54-mcrypt
 
+brew tap tldr-pages/tldr
+brew install tldr
+
 brew install caskroom/cask/brew-cask
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
 
