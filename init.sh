@@ -12,8 +12,7 @@ brew install git tmux vim macvim zsh \
              wget curl colordiff mtr tree stormssh \
              python ruby node \
              mysql mongodb redis \
-             nginx \
-             appledoc22
+             nginx
 
 brew install --with-fpm --without-apache php54
 brew install memcached php54-memcache
