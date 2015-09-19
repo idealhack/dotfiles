@@ -11,7 +11,7 @@ brew tap homebrew/homebrew-dupes homebrew/homebrew-versions homebrew/homebrew-ph
 brew install git tmux vim macvim zsh \
              wget curl colordiff mtr tree stormssh \
              python ruby node \
-             mysql mongodb redis \
+             mariadb mongodb redis \
              nginx
 
 brew install --with-fpm --without-apache php54
